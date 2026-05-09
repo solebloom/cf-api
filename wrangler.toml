@@ -35,8 +35,8 @@ mode = "smart"
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#d1-databases
 [[d1_databases]]
 binding = "DB"
-database_name = "lyrics"
-database_id = "7da5510e-b086-4d47-aae8-837936f9cdc6"
+#database_name = "lyrics"
+#database_id = "7da5510e-b086-4d47-aae8-837936f9cdc6"
 preview_database_id = "a0e07b42-ba20-477e-88a3-59dc7d7c320a"
 
 # Bind an R2 Bucket. Use R2 to store arbitrarily large blobs of data, such as files.
