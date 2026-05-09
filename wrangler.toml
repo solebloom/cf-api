@@ -52,9 +52,9 @@ mode = "smart"
 # binding = "MY_SERVICE"
 # service = "my-service"
 
-
-[limits]
-cpu_ms = 25
+# Cloudflare Worker cpu limits are not supported for the Free plan. so disabled cpu_ms parameter.
+#[limits]
+#cpu_ms = 25
 
 
 [assets]
